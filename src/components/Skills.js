@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Skills = () => {
-  const skills = ['JavaScript', 'React', 'Node.js', 'CSS', 'HTML', 'MySQL', 'Laravel', 'Docker', 'GitHub', 'SEO-копирайтинг'];
+  const skills = ['JavaScript', 'PHP', 'React', 'Node.js', 'CSS', 'HTML', 'MySQL', 'Laravel', 'Docker', 'GitHub', 'SEO-копирайтинг'];
 
   const sectionStyle = {
     background: '#f0f4f8',
