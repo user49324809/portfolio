@@ -26,7 +26,7 @@ function App() {
                 <Contact />
             </main>
             <footer>
-                <p>&copy; {new Date().getFullYear()} Ваше Имя</p>
+                <p>&copy; {new Date().getFullYear()} Наталья</p>
             </footer>
         </div>
     );
