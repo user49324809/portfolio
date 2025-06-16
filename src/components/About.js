@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import yourPhoto from '../assets/your-photo.jpg'; // проверьте, чтобы путь был правильным
+import yourPhoto from '../assets/your-photo.jpg';
 
 const About = () => {
   return (
