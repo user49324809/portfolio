@@ -14,7 +14,7 @@ const Projects = () => {
     ],
     PHP: [
       { title: 'Магазин кружек', link: 'https://github.com/user49324809/cup_shop' },
-      { title: 'Магазин велосипедов', link: 'https://github.com/user49324809/bicycle/tree/master' },
+      { title: 'Магазин велосипедов', link: 'https://github.com/user49324809/bicycle/tree/master'},
     ]
   };
 
