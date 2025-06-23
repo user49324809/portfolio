@@ -4,6 +4,7 @@ const Skills = () => {
   const skills = ['JavaScript', 'PHP', 'React', 'Node.js', 'CSS', 'HTML', 'MySQL', 'Laravel', 'Docker', 'GitHub', 'SEO-копирайтинг', 'Figma'];
 
   const sectionStyle = {
+    href: skill.js,
     background: '#f0f4f8',
     padding: '2rem',
     borderRadius: '8px',

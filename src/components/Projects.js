@@ -7,6 +7,7 @@ const Projects = () => {
       { title: 'Магазин чашек', link: 'https://user49324809.github.io/cup_store/' },
       { title: 'Магазин цветов', link: 'https://user49324809.github.io/bike_flowers/' },
       { title: 'График исторических событий', link: 'https://user49324809.github.io/wdb/' },
+      { title: 'Расписание врачей', link: 'https://user49324809.github.io/shedule/' }
     ],
     JavaScript: [
       { title: 'Курсы английского', link: 'https://user49324809.github.io/cours/' },
