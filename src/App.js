@@ -10,6 +10,11 @@ function App() {
         <div>
             <header>
                 <h1>Портфолио программиста</h1>
+                <h2>
+                    <a href='https://docs.google.com/document/d/1JuitnXXA9yRL1rOu5ExqaMP1adcXURYteoUq5GGphUw/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
+                        Резюме
+                    </a>
+                </h2>
                 <nav>
                     <ul>
                         <li><a href="#about">О себе</a></li>
