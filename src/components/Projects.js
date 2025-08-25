@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = {
     "HTML, CSS, JavaScript": [
       {title: 'Список дел', link: 'https://user49324809.github.io/todolist/'},
-      {title: 'Матемтический калькулятор', link: 'https://user49324809.github.io/calculatormath/'},
+      {title: 'Математический калькулятор', link: 'https://user49324809.github.io/calculatormath/'},
       {title: 'Галлерея-слайдер', link: 'https://user49324809.github.io/gallery/'},
       {title: 'Крестики-нолики', link: 'https://user49324809.github.io/tic-tac-toe/'},
       {title: 'Мини-блог', link: 'https://user49324809.github.io/mini-blog/'},
@@ -18,12 +18,14 @@ const Projects = () => {
       { title: 'Контакт-лист', link: 'https://user49324809.github.io/contact_list/'},
       { title: 'Портфолио фотографа', link: 'https://user49324809.github.io/photograph_portfolio/'},
       { title: 'Лента новостей', link: 'https://user49324809.github.io/news-feed/'},
+      { title: 'Трэкер расходов', link: 'https://user49324809.github.io/tracker/'},
       { title: 'Магазин чашек', link: 'https://user49324809.github.io/cup_store/'},
       { title: 'Магазин цветов', link: 'https://user49324809.github.io/bike_flowers/'},
       { title: 'График исторических событий', link: 'https://user49324809.github.io/wdb/'},
       { title: 'Расписание врачей', link: 'https://user49324809.github.io/shedule/'}
     ],
     PHP: [
+      { title: 'Курсы литературы', link: 'https://user49324809.github.io/litcourse/' },
       { title: 'Магазин кружек', link: 'https://github.com/user49324809/cup_shop' },
       { title: 'Магазин велосипедов', link: 'https://github.com/user49324809/bicycle/tree/master'},
     ]
