@@ -1,0 +1,55 @@
+.article-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  color: #4a90e2;
+  margin-top: 2rem;
+}
+
+ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.code-block {
+  background: #272822;
+  color: rgb(18, 17, 17);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  overflow-x: auto;
+}
+
+.code-block pre {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.infographic {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #e1f5fe;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.infographic .icon {
+  font-size: 2rem;
+}
