@@ -24,6 +24,9 @@ const Projects = () => {
       { title: 'График исторических событий', link: 'https://user49324809.github.io/wdb/'},
       { title: 'Расписание врачей', link: 'https://user49324809.github.io/shedule/'}
     ],
+    Vue:[
+      { title: 'Лист покупок', link: 'https://user49324809.github.io/shoplist/'},
+    ],
     PHP: [
       { title: 'Курсы литературы', link: 'https://user49324809.github.io/litcourse/' },
       { title: 'Магазин кружек', link: 'https://github.com/user49324809/cup_shop' },
