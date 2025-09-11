@@ -1,5 +1,6 @@
 import React from "react";
 import "./ArticlePHP.css";
+import { Link } from "react-router-dom";
 
 const ArticlePHP = () => {
   return (
@@ -68,6 +69,7 @@ try {
         <div className="icon">🔒</div>
         <p>Используя сессии, куки и хэширование, вы защищаете данные пользователей.</p>
       </div>
+      <Link to="/" className="back-link">← Назад к навыкам</Link>
     </div>
   );
 };

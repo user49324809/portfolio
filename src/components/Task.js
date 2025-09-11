@@ -1,33 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Skills = () => {
-  const skills = [
-    "JavaScript",
-    "PHP",
-    "React",
-    "VUE",
-    "Angular",
-    "Node.js",
-    "CSS",
-    "HTML",
-    "MySQL",
-    "Laravel",
-    "Docker",
-    "GitHub",
-    "SEO-копирайтинг",
-    "Figma",
+const Tasks = () => {
+  const tasks = [
+    "JavaScript"
   ];
   const navigate = useNavigate();
-  const handleClick = (skill) => {
-    if (skill === "JavaScript") {
-      navigate("/javascript");
-    }
-    if (skill === "PHP") {
-      navigate("/articlephp");
-    }
-    if (skill === "React") {
-      navigate("/articlereact");
+  const handleClick = (task) => {
+    if (task === "JavaScript") {
+      navigate("/taskjs");
     }
   };
   return (
@@ -42,7 +23,7 @@ const Skills = () => {
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
       }}
     >
-      <h2 style={{ textAlign: "center", marginBottom: "1.5rem" }}>Статьи(можно почитать если кликнуть по навыку)</h2>
+      <h2 style={{ textAlign: "center", marginBottom: "1.5rem" }}>Задачи(можно посмотреть)</h2>
       <ul
         style={{
           listStyle: "none",
@@ -53,7 +34,7 @@ const Skills = () => {
           gap: "1rem",
         }}
       >
-        {skills.map((skill, index) => (
+        {tasks.map((task, index) => (
           <li
             key={index}
             style={{
@@ -66,9 +47,9 @@ const Skills = () => {
             }}
             onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
             onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
-            onClick={() => handleClick(skill)}
+            onClick={() => handleClick(task)}
           >
-            {skill}
+            {task}
           </li>
         ))}
       </ul>
@@ -76,4 +57,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Tasks;
