@@ -43,7 +43,7 @@ const Skills = () => {
 
   return (
     <section id="skills" style={sectionStyle}>
-      <h2 style={titleStyle}>Навыки!!!</h2>
+      <h2 style={titleStyle}>Навыки!</h2>
       <ul style={listStyle}>
         {skills.map((skill, index) => (
           <li
