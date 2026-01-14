@@ -64,7 +64,7 @@ const Projects = () => {
                         rel="noopener noreferrer"
                         className="btn btn-primary mt-auto"
                       >
-                        Перейти к проекту
+                        Перейти к проекту!
                       </a>
                     </div>
                   </div>
